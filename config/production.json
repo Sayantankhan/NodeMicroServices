@@ -1,0 +1,17 @@
+{
+    "_comment": "configuration for production",
+    "database":{
+        "_comment": "Database configuration",
+        "DBhost": "ds159400.mlab.com",
+        "DBport": "59400",
+        "DBname": "microservice_db",
+        "DBcollection_auth" : "auth_collections",
+        "DBuser":"sayantan",
+        "DBpassword":"Baptu@123"
+    },
+    "database_quick_configuration":{
+        "_comment":"DB quick configuration",
+        "db_connect_URL":"mongodb://sayantan:Baptu@123@ds159400.mlab.com:59400/microservice_db",
+        "db_collection_auth":"auth_collections"
+    }
+}

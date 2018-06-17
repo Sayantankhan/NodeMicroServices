@@ -1,0 +1,24 @@
+{
+    "_comment": "configuration for default env",
+    "database":{
+        "_comment": "Database configuration",
+        "DBhost": "ds159400.mlab.com",
+        "DBport": "59400",
+        "DBname": "microservice_db",
+        "DBcollection_auth" : "auth_collections"
+    },
+    "database_quick_configuration":{
+        "_comment":"DB quick configuration",
+        "db_connect_URL":"mongodb://ds159400.mlab.com:59400/microservice_db",
+        "db_collection_auth":"auth_collections"
+    },
+    "database_credentials":{
+        "auth": {
+            "user": "sayantan",
+            "password": "Baptu123#"
+          }  
+    },
+    "application":{
+        "port" : 9000
+    }
+}

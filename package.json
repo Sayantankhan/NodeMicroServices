@@ -1,0 +1,32 @@
+{
+  "name": "nodemicroservice",
+  "version": "1.0.0",
+  "description": "> mLab_mongo_url : mongodb://<dbuser>:<dbpassword>@ds159400.mlab.com:59400/microservice_db",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "config": "^1.30.0",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "helmet": "^3.12.1",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.1.5",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sayantankhan/NodeMicroServices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
